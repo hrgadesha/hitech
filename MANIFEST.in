@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include hitech *.css
+recursive-include hitech *.csv
+recursive-include hitech *.html
+recursive-include hitech *.ico
+recursive-include hitech *.js
+recursive-include hitech *.json
+recursive-include hitech *.md
+recursive-include hitech *.png
+recursive-include hitech *.py
+recursive-include hitech *.svg
+recursive-include hitech *.txt
+recursive-exclude hitech *.pyc
