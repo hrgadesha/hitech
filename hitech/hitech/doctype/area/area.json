@@ -1,4 +1,5 @@
 {
+ "actions": [],
  "autoname": "field:area",
  "creation": "2021-03-25 23:30:59.365624",
  "doctype": "DocType",
@@ -27,6 +28,8 @@
    "fetch_from": "pincode.city",
    "fieldname": "city",
    "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "City",
    "options": "City"
   },
@@ -34,11 +37,15 @@
    "fetch_from": "pincode.state",
    "fieldname": "state",
    "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "State",
    "options": "State"
   }
  ],
- "modified": "2021-03-25 23:31:57.833500",
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-04-12 22:16:35.583464",
  "modified_by": "Administrator",
  "module": "HiTech",
  "name": "Area",
