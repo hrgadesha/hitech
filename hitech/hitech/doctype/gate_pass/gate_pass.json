@@ -25,6 +25,7 @@
   "cover",
   "lr_no",
   "column_break_15",
+  "invoice_copy_received",
   "invoice_no",
   "billing_do_no",
   "employee",
@@ -250,11 +251,17 @@
    "fieldtype": "Link",
    "label": "Signed Challan Copy Received By",
    "options": "Employee"
+  },
+  {
+   "fieldname": "invoice_copy_received",
+   "fieldtype": "Select",
+   "label": "Invoice Copy Received",
+   "options": "\nYes\nNo"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2021-05-25 15:19:18.109265",
+ "modified": "2021-05-26 23:52:58.943265",
  "modified_by": "Administrator",
  "module": "HiTech",
  "name": "Gate Pass",
